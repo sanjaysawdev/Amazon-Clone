@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mainbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        img {
+            height: 40px;
+        }
+
+        .box {
+
+            padding: 20px;
+            border: 2px solid rgb(206, 204, 204);
+            border-radius: 15px;
+            width: 22vw;
+            height: 31vw;
+        }
+
+        .authen {
+            font-size: x-large;
+            font-weight: bold;
+        }
+
+        .number {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .change {
+            margin-left: 15px;
+            font-size: small;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: blue;
+        }
+
+        .line {
+            margin-top: 15px;
+            font-size: medium;
+            font-weight: lighter;
+        }
+
+        .otp {
+            margin: 15px;
+        }
+
+        .otpbox {
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 21.5vw;
+            height: 25px;
+        }
+
+        .continue {
+            border: 0px solid black;
+            background-color: rgb(252, 202, 0);
+            border-radius: 25px;
+            width: 22vw;
+            margin-top: 15px;
+            height: 30px;
+        }
+
+        .resend {
+            margin-top: 40px;
+            margin-left: 110px;
+        }
+
+        .or {
+            margin-top: 40px;
+            margin-left: 145px;
+        }
+
+        .whtsp {
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 25px;
+            width: 22vw;
+            margin-top: 15px;
+            height: 30px;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+            justify-content: center;
+            align-items: center;
+            font-size: small;
+            color: blue;
+
+        }
+
+        .estd {
+            margin-top: 10px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainbox">
+        <div class="logo">
+            <img src="desktoplogo.png" alt="">
+        </div>
+        <div class="box">
+            <div class="authen">Authentication required</div>
+            <div class="number">IN +91 9204570423 <span class="change"><a
+                        href="http://127.0.0.1:5500/login.html">Change</a></span></div>
+            <div class="line">We’ve sent a One Time Password (OTP) to the mobile number above. Please enter it to
+                complete verification</div>
+            <div class="otp">Enter OTP</div>
+            <input type="text" class="otpbox">
+            <button class="continue"><a href="http://127.0.0.1:5500/mainpage.html">Continue</a></button>
+            <div class="resend"><a href="http://127.0.0.1:5500/otp.html">Resend OTP</a></div>
+            <div class="or">or</div>
+            <button class="whtsp"><a href="http://127.0.0.1:5500/otp.html">Send OTP to WhatsApp</a></button>
+        </div>
+        <br><br>
+        <hr>
+        <div class="lastline">
+            <ul>
+                <li>Condition Of Use</li>
+                <li>Privacy Notice</li>
+                <li>Help</li>
+            </ul>
+            <pre class="estd">© 1996–2025, Amazon.com, Inc. or its affiliates</pre>
+        </div>
+
+    </div>
+</body>
+
+</html>

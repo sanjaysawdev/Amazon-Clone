@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mainbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        img {
+            height: 40px;
+        }
+
+        .box {
+            padding: 20px;
+            border: 2px solid rgb(206, 204, 204);
+            border-radius: 15px;
+            width: 22vw;
+            height: 34vw;
+        }
+
+        .create {
+            font-size: xx-large;
+        }
+
+        .mobile {
+            margin-top: 15px;
+
+            font-size: medium;
+            font-weight: bold;
+        }
+
+        .countrycode {
+
+            background-color: rgb(218, 223, 221);
+            border: 1px solid black;
+            width: 70px;
+            border-radius: 15px;
+            height: 40px;
+        }
+
+        .mobilebox {
+            margin-top: 5px;
+            display: flex;
+        }
+
+        .mobilenumberbox {
+            margin-top: 5px;
+            margin-left: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 20vw;
+            height: 25px;
+        }
+
+        .name {
+
+            margin-top: 10px;
+            font-size: medium;
+            font-weight: bold;
+        }
+
+        .namebox {
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 21.5vw;
+            height: 25px;
+        }
+
+        .password {
+            margin-top: 10px;
+            font-size: medium;
+            font-weight: bold;
+        }
+
+        .passbox {
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 21.5vw;
+            height: 25px;
+        }
+
+        .note {
+            margin-top: 30px;
+            font-size: small;
+        }
+
+        .verify {
+            width: 22vw;
+            height: 30px;
+            border-radius: 15px;
+            margin-top: 25px;
+            background-color: rgb(246, 214, 8);
+        }
+
+        .custom {
+            font-weight: bold;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: blue;
+        }
+
+        .para {
+            font-size: small;
+            margin-top: 10px;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+            justify-content: center;
+            align-items: center;
+            font-size: small;
+            color: blue;
+
+        }
+
+        .estd {
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainbox">
+        <div class="Logo">
+            <img src="desktoplogo.png" alt="Image">
+        </div>
+        <div class="box">
+            <div class="create">Create Account</div>
+            <div class="mobile">Mobile number
+                <div class="mobilebox">
+                    <div class="smallbox">
+                        <select class="countrycode">
+                            <option value="93">AF +93</option>
+                            <option value="61">Australia +61</option>
+                            <option value="43">Austria +43</option>
+                            <option value="880">Bangladesh +880</option>
+                            <option value="86">China +86</option>
+                            <option value="45">Denmark +45</option>
+                            <option value="33">France +33</option>
+                            <option value="49">Germany +49</option>
+                            <option value="233">Ghana +233</option>
+                            <option value="509">Haiti +509</option>
+                            <option value="852">Hong Kong +852</option>
+                            <option value="36">Hungary +36</option>
+                            <option value="354">Iceland +354</option>
+                            <option value="91">IN +91</option>
+                            <option value="62">Indonesia +62</option>
+                            <option value="964">Iraq +964</option>
+                            <option value="972">Israel +972</option>
+                            <option value="39">Italy +39</option>
+                            <option value="81">Japan +81</option>
+                            <option value="44">Jersey +44</option>
+                            <option value="60">Malaysia +60</option>
+                            <option value="960">Maldives +960</option>
+                            <option value="52">Mexico +52</option>
+                            <option value="674">Nauru +674</option>
+                            <option value="977">Nepal +977</option>
+                            <option value="64">New Zealand +64</option>
+                            <option value="47">Norway +47</option>
+                            <option value="968">Oman +968</option>
+                            <option value="92">Pakistan +92</option>
+                            <option value="680">Palau +680</option>
+                            <option value="507">Panama +507</option>
+                            <option value="595">Paraguay +595</option>
+                            <option value="51">Peru +51</option>
+                            <option value="63">Philippines +63</option>
+                            <option value="64">Pitcairn +64</option>
+                            <option value="48">Poland +48</option>
+                            <option value="351">Portugal +351</option>
+                            <option value="1787">Puerto Rico +1787</option>
+                            <option value="974">Qatar +974</option>
+                            <option value="262">Reunion +262</option>
+                            <option value="40">Romania +40</option>
+                            <option value="7">Russian Federation +7</option>
+                            <option value="94">Sri Lanka +94</option>
+                            <option value="249">Sudan +249</option>
+                            <option value="597">Suriname +597</option>
+                            <option value="268">Swaziland +268</option>
+                            <option value="46">Sweden +46</option>
+                            <option value="41">Switzerland +41</option>
+                            <option value="90">Turkey +90</option>
+                            <option value="380">Ukraine +380</option>
+                            <option value="44">United Kingdom +44</option>
+                            <option value="1">United States +1</option>
+                        </select>
+                    </div>
+                    <input type="text" placeholder="Mobile number" class="mobilenumberbox">
+                </div>
+            </div>
+            <div class="name">Your name</div>
+            <div class="namebox1">
+                <input type="text" placeholder="First and last name" class="namebox">
+            </div>
+            <div class="password">Password(at least 6 letters)</div>
+            <div class="namebox1">
+                <input type="password" class="passbox">
+            </div>
+            <div class="note">To verify your number, we will send you a text message with a temporary code. Message and
+                data rates may apply.</div>
+            <div class="verify1">
+                <button class="verify"><a href="http://127.0.0.1:5500/otp.html">Verify Mobile Number</a></button><br><br>
+                <hr>
+            </div>
+            <div class="custom">Already a customer?</div>
+            <div class="sign"><a href="http://127.0.0.1:5500/login.html">Sign in instead</a></div>
+            <div class="para">By continuing, you agree to Amazon's Conditions of Use and Privacy Notice</div>
+        </div>
+
+        <hr>
+        <div class="lastline">
+            <ul>
+                <li>Condition Of Use</li>
+                <li>Privacy Notice</li>
+                <li>Help</li>
+            </ul>
+            <pre class="estd">© 1996–2025, Amazon.com, Inc. or its affiliates</pre>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
