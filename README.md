@@ -1,4 +1,4 @@
-🛒 Amazon Clone (India)A pixel-perfect frontend replica of the Amazon India e-commerce interface, showcasing core web development skills in HTML and CSS.
+🛒 Amazon Clone (India)A pixel-perfect frontend replica of the Amazon India e-commerce interface, showcasing core web development skills in HTML,CSS,BOOTSTRAP.
 
 This project meticulously replicates the design and user flow of Amazon, including the main product display page, user login, and account creation steps.
 
